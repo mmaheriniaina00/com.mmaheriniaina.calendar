@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0 http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+    <kcfgfile name=""/>
+
+    <group name="Appearance">
+        <!-- 0 = cercle plein, 1 = carré arrondi, 2 = soulignement, 3 = anneau -->
+        <entry name="markerStyle" type="Int">
+            <default>0</default>
+        </entry>
+        <entry name="useSystemAccent" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="markerColor" type="Color">
+            <default>#3daee9</default>
+        </entry>
+        <entry name="useSystemText" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="textColor" type="Color">
+            <default>#fcfcfc</default>
+        </entry>
+        <entry name="fontSize" type="Int">
+            <default>11</default>
+        </entry>
+        <!-- 0 = centré, 1 = aux bords (1re colonne à gauche, dernière à droite), 2 = gauche, 3 = droite -->
+        <entry name="textAlign" type="Int">
+            <default>0</default>
+        </entry>
+        <entry name="boldToday" type="Bool">
+            <default>true</default>
+        </entry>
+    </group>
+
+    <group name="Background">
+        <entry name="useSystemBackground" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="backgroundColor" type="Color">
+            <default>#232629</default>
+        </entry>
+        <!-- 0..100 -->
+        <entry name="backgroundOpacity" type="Int">
+            <default>80</default>
+        </entry>
+        <entry name="cornerRadius" type="Int">
+            <default>12</default>
+        </entry>
+        <entry name="blurEnabled" type="Bool">
+            <default>false</default>
+        </entry>
+        <!-- 1..64 -->
+        <entry name="blurRadius" type="Int">
+            <default>32</default>
+        </entry>
+    </group>
+
+    <group name="Layout">
+        <!-- taille d'une case en pixels -->
+        <entry name="cellSize" type="Int">
+            <default>36</default>
+        </entry>
+        <!-- true = le calendrier remplit le widget ; false = taille fixe (cellSize) + alignement -->
+        <entry name="fillWidget" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="padding" type="Int">
+            <default>12</default>
+        </entry>
+        <!-- 0 = gauche, 1 = centre, 2 = droite -->
+        <entry name="alignH" type="Int">
+            <default>1</default>
+        </entry>
+        <!-- 0 = haut, 1 = centre, 2 = bas -->
+        <entry name="alignV" type="Int">
+            <default>1</default>
+        </entry>
+        <entry name="offsetX" type="Int">
+            <default>0</default>
+        </entry>
+        <entry name="offsetY" type="Int">
+            <default>0</default>
+        </entry>
+    </group>
+</kcfg>

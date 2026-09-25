@@ -1,0 +1,13 @@
+{
+    "KPlugin": {
+        "Id": "com.mmaheriniaina.calendar",
+        "Name": "Month Calendar",
+        "Description": "Calendrier du mois avec marque sur la date du jour",
+        "Version": "1.0",
+        "Category": "Date and Time",
+        "Icon": "view-calendar",
+        "Authors": [{ "Name": "Michael" }]
+    },
+    "KPackageStructure": "Plasma/Applet",
+    "X-Plasma-API-Minimum-Version": "6.0"
+}

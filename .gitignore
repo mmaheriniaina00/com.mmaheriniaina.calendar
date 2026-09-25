@@ -1,0 +1,4 @@
+*.plasmoid
+*.qmlc
+*.jsc
+.qmlls.ini
