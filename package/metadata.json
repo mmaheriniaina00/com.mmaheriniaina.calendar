@@ -4,6 +4,7 @@
         "Name": "Month Calendar",
         "Description": "Calendrier du mois avec marque sur la date du jour",
         "Version": "1.0",
+        "License": "PolyForm-Noncommercial-1.0.0",
         "Category": "Date and Time",
         "Icon": "view-calendar",
         "Authors": [{ "Name": "Michael" }]
